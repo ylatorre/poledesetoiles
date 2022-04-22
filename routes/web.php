@@ -40,3 +40,4 @@ Route::get('CarteCeleste5', [Controller::class, 'CarteCeleste5'])->name('CarteCe
 
 
 require __DIR__.'/auth.php';
+
