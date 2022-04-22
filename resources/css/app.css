@@ -1,3 +1,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.bg-constelation{
+    background-image: url("/image/voie-lactee.jpg");
+    /*style="background-image: url('{{asset('image/voie-lactee.jpg')}}');"*/
+}
