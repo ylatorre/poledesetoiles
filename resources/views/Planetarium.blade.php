@@ -14,9 +14,7 @@
             </div>
         </div>
     </div>
-<<<<<<< Updated upstream
-    
-=======
+
     {{--    tu peux ecrir a partir d'ici--}}
 
     <section>
@@ -30,12 +28,16 @@
     </style>
 
     {{--    ici le js--}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/VirtualSky-gh-pages/stuquery.min.js" type="text/javascript" ></script>
+    <script src="/VirtualSky-gh-pages/virtualsky.min.js" type="text/javascript" ></script>
+    <script src="./VirtualSky-gh-pages/excanvas.min.js" type="text/javascript" ></script>
 
-    <script type="text/javascript">
+    <script type="text/javascript" >
 
-        $(document).ready(function() {
+        S(document).ready(function() {
 
-            var planetarium = $.virtualsky({
+            var planetarium = S.virtualsky({
                 'id': 'starmapgnomic',
                 'projection': 'gnomic',
                 'ra': 83.8220833,
@@ -54,5 +56,4 @@
         });
 
     </script>
->>>>>>> Stashed changes
 </x-app-layout>
