@@ -6,7 +6,7 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
-
+import 'tw-elements';
 // $(document).ready(function() {
 //
 //     var planetarium = $.virtualsky({

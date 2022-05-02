@@ -28,6 +28,8 @@ Route::get('contact', [Controller::class, 'Contact'])->name('Contact');
 Route::get('Planetarium', [Controller::class, 'Planetarium'])->name('Planetarium');
 Route::get('ExpoPermanante', [Controller::class, 'ExpoPermanante'])->name('ExpoPermanante');
 Route::get('Calendrier', [Controller::class, 'Calendrier'])->name('Calendrier');
+Route::get('Goodies', [Controller::class, 'Goodies'])->name('Goodies');
+Route::get('gate', [Controller::class, 'gate'])->name('gate');
 
 //Route pour les boutons carte celeste dans accueil
 Route::get('CarteCeleste', [Controller::class, 'CarteCeleste'])->name('CarteCeleste');

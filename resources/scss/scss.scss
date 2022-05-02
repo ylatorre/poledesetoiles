@@ -1,0 +1,304 @@
+.gliph{font-family: 'Karma', serif}
+* {padding:0; margin: 0; border:0;box-sizing: border-box;}
+body {
+    perspective: 1000px;
+    background: #000;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+body * {position: absolute;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    min-height: 150vw;
+}
+
+.gate {
+    position: relative;
+    margin: auto;
+}
+
+.ring1 {
+    width: 80vw;
+    height: 80vw;
+    border-radius: 50%;
+    top: 2rem;
+    left: 10%;
+    background-color: #80A2A3;
+}
+.ring2 {
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    border: .5vw dotted #476067;
+    border-radius: 50%;
+    box-shadow: inset 0 0 1rem #000, 0 0 1rem #000;
+    animation: password 25s infinite linear
+}
+
+@keyframes password {
+    0%, 5% {transform: rotate(0deg)}
+    20%, 15% {transform: rotate(45deg)}
+    35%,30% {transform: rotate(90deg)}
+    50%, 45% {transform: rotate(135deg)}
+    65%, 60% {transform: rotate(180deg)}
+    80%, 75% {transform: rotate(225deg)}
+    95%, 90% {transform: rotate(270deg)}
+    100% {transform: rotate(360deg)}
+}
+.gliph {
+    min-width: 1px;
+    width: 1%;
+    bottom: 50%;
+    left: calc(50% - .5%);
+    height: 50%;
+    background: #476067;
+    transform-origin: bottom;
+    font-size: 3vw;
+    @for $i from 0 through 36 {
+        &:nth-child(#{$i}) {
+            transform-origin: bottom;
+            transform: rotate(calc(#{$i} * 10deg));
+        }
+    }
+}
+
+.gliph::after {
+    content: attr(data-content);
+    display: block;
+    width: 6vw;
+    padding-top: 1vw;
+    text-align: center;
+
+}
+
+@keyframes water {
+    0%, 100% {transform: scale(1)}
+    40% {transform: scale(.6)}
+    50% {transform: scale(.8)}
+    75% {transform: scale(1)}
+    80% {transform: scale(1.2)}
+}
+.slider {
+    width: 72%;
+    height: 72%;
+    top: 14%;
+    left: 14%;
+    border-radius: 50%;
+    background: #2F3871;
+    box-shadow: inset 0 0 5rem #000, 0 0 5vw #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: initial;
+    -webkit-transform-style: initial;
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        background: #FFF;
+        box-shadow: inset 0 0 15vw #FFF, 0 0 10vw #FFF, 0 0 15vw #FFF, 0 0 5vw #FFf;
+        filter: blur(3vw);
+        mix-blend-mode: ligther;
+        animation: water 5s 1s infinite;
+    }
+}
+
+.light {
+    background-color: #EBFE81;
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    box-shadow: 0 0 4vw #EBFE81;
+    left: 46.5%;
+    bottom: 50%;
+    margin-bottom: 43%;
+    transform-origin: center 700%;
+    @for $i from 0 through 9 {
+        &:nth-child(#{$i}) {
+            transform: rotate(calc(#{$i} * 45deg));
+        }
+    }
+}
+
+.lamp {
+    width: 0;
+    height: 0;
+    left: 8%;
+    bottom: -70%;
+    border-top: 5vw solid #717B72;
+    border-right: 2vw solid transparent;
+    border-left: 2vw solid transparent;
+    &::before, &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: .6vw;
+        height: 8vw;
+        background: #717B72;
+        transform-origin: bottom;
+        transform: rotateZ(20deg);
+    }
+    &::after {transform:rotateZ(-20deg)}
+}
+
+.floor {
+    width: 100vw;
+    top: 80vw;
+    height: 800px;
+    background: #6F8BA3;
+    transform-origin: top;
+    transform: rotateX(90deg);
+    .line {
+        width: 100vw;
+        background-image: linear-gradient(to right, black 50%, #FBD06A 0%);
+        background-position: bottom;
+        background-size: 15% 3vw;
+        background-repeat: repeat-x;
+        margin-top: 40vW;
+        height: 3vw;
+        transform: skewX(60deg) rotate(5deg);
+    }
+}
+
+.bridge {
+    transform-origin: top;
+    width: 40%;
+    left: 30%;
+    top: 70vw;
+    height: 500px;
+    background: repeating-linear-gradient(90deg,
+        #546174, #546174 .1em, #283A50 0, #283A50 .5em);
+    box-shadow: inset 0 0 5vw #000;
+    transform: rotateX(95deg);
+    &::after, .stair::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #000;
+        transform-origin: bottom;
+        bottom: 0;
+        transform: rotateX(90deg);
+    }
+}
+
+.staircase {
+    top: 100%;
+    width: 100%;
+    height: 50px;
+    transform-origin: top;
+    transform: rotateX(-50deg);
+    border: 4px solid;
+    border-top: none;
+    .stair {
+        width: 100%;
+        background: repeating-linear-gradient(90deg,
+            #546174, #546174 .1em, #283A50 0, #283A50 .5em);
+        height: 25px;
+        transform: rotateX(50deg);
+        &:first-child {
+            bottom: 0;
+        }
+        &:last-child {
+            bottom: 40%;
+        }
+    }
+}
+
+div[class^="barrier"] {
+    width: 50px;
+    height: 350px;
+    // background: repeating-linear-gradient(0deg,
+    // red, red 1em, green 0, #283A50 5em);
+    transform-origin: top left;
+    left: 30%;
+    top: 70vw;
+    border-radius: 50px 50px 0 0;
+    border: 1vw solid #31363C;
+    transform:  rotateZ(-90deg) rotateX(91.5deg);
+    &::before {
+        content: '';
+        position: absolute;
+        width: 1vw;
+        background-color: #31363C;
+        height: 100%;
+        left: 20%;
+        top: 0
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 50%;
+        height: 100%;
+        right: 0;
+        box-shadow: 0 0 1rem #FFFDF1, inset 0 0 5vw #FFFDF1;
+        background-color: #FFFDF1C3;
+    }
+}
+
+div[class^="barrier"]:last-of-type {
+    transform: translate(39vw) rotateZ(-90deg) rotateX(88.5deg);
+}
+
+.slider img {
+    //max-width: 100%;
+    width: 100%;
+    transform: scale(.5);
+    opacity: 0;
+    mix-blend-mode: multiply;
+    transition: all 1s;
+}
+.slider video {
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+}
+.slider .active {
+    transform: scale(.8);
+    opacity: 1;
+    mix-blend-mode: initial;
+    transition: all 1s 2s;
+}
+
+@keyframes blink {
+    0%,100% {transform: scale(1)}
+    50% {transform: scale(.5)}
+}
+
+.star {
+    background-color: #e4efab;
+    border-radius: 50%;
+    &:nth-of-type(3n) {
+        animation: blink 1s infinite;
+    }
+    @for $i from 0 through 99 {
+        &:nth-of-type(#{$i}) {
+            top: random(100) + vw;
+            left: random(100) + vw;
+            $width: random(2) + 1 + px;
+            height: $width;
+            width: $width;
+            animation-delay: random() + s;
+        }
+    }
+}
+

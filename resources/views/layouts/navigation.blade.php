@@ -25,6 +25,9 @@
                     <x-nav-link :href="route('Calendrier')" :active="request()->routeIs('Calendrier')">
                         {{ __('Calendrier') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('Goodies')" :active="request()->routeIs('Goodies')">
+                        {{ __('Goodies') }}
+                    </x-nav-link>
                     <x-nav-link :href="route('Contact')" :active="request()->routeIs('Contact')">
                         {{ __('Contact') }}
                     </x-nav-link>

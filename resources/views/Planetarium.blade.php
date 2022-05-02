@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    
+    <iframe src="{{route("gate")}}" height="300px" scrolling="no" frameborder="0"></iframe>
     {{--    tu peux ecrir a partir d'ici--}}
 
     <section>
@@ -32,7 +32,7 @@
     <script type="text/javascript">
 
         $(document).ready(function() {
-
+        //ici commence la configuration de la map stellaire interactive
             var planetarium = $.virtualsky({
                 'id': 'starmapgnomic',
                 'projection': 'gnomic',
