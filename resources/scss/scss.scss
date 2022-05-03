@@ -31,6 +31,9 @@ body * {position: absolute;
     top: 2rem;
     left: 10%;
     background-color: #80A2A3;
+    width: 742px;
+    height: 742px;
+
 }
 .ring2 {
     width: 90%;
@@ -302,3 +305,10 @@ div[class^="barrier"]:last-of-type {
     }
 }
 
+.symbole {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.14);
+    margin-top: 9px;
+    margin-left: 15px;
+}

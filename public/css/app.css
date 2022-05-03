@@ -631,6 +631,9 @@ select {
 .pointer-events-none {
   pointer-events: none;
 }
+.visible {
+  visibility: visible;
+}
 .fixed {
   position: fixed;
 }
@@ -805,6 +808,9 @@ select {
 }
 .h-36 {
   height: 9rem;
+}
+.h-0 {
+  height: 0px;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -1498,6 +1504,30 @@ select {
 .bg-constelation{
     background-image: url("/image/voie-lactee.jpg");
     /*style="background-image: url('{{asset('image/voie-lactee.jpg')}}');"*/
+}
+.rotationmagique{
+    -webkit-animation: password 3s infinite linear;
+            animation: password 3s infinite linear
+}
+@-webkit-keyframes password {
+    0%, 5% {transform: rotate(0deg)}
+    20%, 15% {transform: rotate(45deg)}
+    35%,30% {transform: rotate(90deg)}
+    50%, 45% {transform: rotate(135deg)}
+    65%, 60% {transform: rotate(180deg)}
+    80%, 75% {transform: rotate(225deg)}
+    95%, 90% {transform: rotate(270deg)}
+    100% {transform: rotate(360deg)}
+}
+@keyframes password {
+    0%, 5% {transform: rotate(0deg)}
+    20%, 15% {transform: rotate(45deg)}
+    35%,30% {transform: rotate(90deg)}
+    50%, 45% {transform: rotate(135deg)}
+    65%, 60% {transform: rotate(180deg)}
+    80%, 75% {transform: rotate(225deg)}
+    95%, 90% {transform: rotate(270deg)}
+    100% {transform: rotate(360deg)}
 }
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;

@@ -35,13 +35,20 @@ class Controller extends BaseController
     {
         return view("Calendrier");
     }
+
     public function Goodies()
     {
         return view("galerry");
     }
+
     public function gate()
     {
         return view("gate");
+    }
+
+    public function gate2()
+    {
+        return view("gate2");
     }
 
     public function CarteCeleste()

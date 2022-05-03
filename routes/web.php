@@ -30,6 +30,7 @@ Route::get('ExpoPermanante', [Controller::class, 'ExpoPermanante'])->name('ExpoP
 Route::get('Calendrier', [Controller::class, 'Calendrier'])->name('Calendrier');
 Route::get('Goodies', [Controller::class, 'Goodies'])->name('Goodies');
 Route::get('gate', [Controller::class, 'gate'])->name('gate');
+Route::get('gate2', [Controller::class, 'gate2'])->name('gate2');
 
 //Route pour les boutons carte celeste dans accueil
 Route::get('CarteCeleste', [Controller::class, 'CarteCeleste'])->name('CarteCeleste');
