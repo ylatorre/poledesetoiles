@@ -1501,15 +1501,26 @@ select {
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
+@font-face {
+    font-family: "starGate";
+    src: url("/public/stargate_sg1_adress_glyphs.ttf");
+}
 .bg-constelation{
     background-image: url("/image/voie-lactee.jpg");
     /*style="background-image: url('{{asset('image/voie-lactee.jpg')}}');"*/
 }
-.rotationmagique{
-    -webkit-animation: password 3s infinite linear;
-            animation: password 3s infinite linear
+body{
+    font-family: "starGate";
 }
-@-webkit-keyframes password {
+.rotationmagique{
+    -webkit-animation: password 25s infinite linear;
+            animation: password 25s infinite linear;
+}
+.rotationmagique2{
+    -webkit-animation: password1 25s infinite linear;
+            animation: password1 25s infinite linear;
+}
+@-webkit-keyframes password{
 
     0%, 5% {transform: rotate(0deg);transform-origin: center;}
     20%, 15% {transform: rotate(45deg);transform-origin: center;}
@@ -1520,7 +1531,29 @@ select {
     95%, 90% {transform: rotate(270deg);transform-origin: center;}
     100% {transform: rotate(360deg);transform-origin: center;}
 }
-@keyframes password {
+@keyframes password{
+
+    0%, 5% {transform: rotate(0deg);transform-origin: center;}
+    20%, 15% {transform: rotate(45deg);transform-origin: center;}
+    35%,30% {transform: rotate(90deg);transform-origin: center;}
+    50%, 45% {transform: rotate(135deg);transform-origin: center;}
+    65%, 60% {transform: rotate(180deg);transform-origin: center;}
+    80%, 75% {transform: rotate(225deg);transform-origin: center;}
+    95%, 90% {transform: rotate(270deg);transform-origin: center;}
+    100% {transform: rotate(360deg);transform-origin: center;}
+}
+@-webkit-keyframes password1 {
+
+    0%, 5% {transform: rotate(0deg);transform-origin: center;}
+    20%, 15% {transform: rotate(45deg);transform-origin: center;}
+    35%,30% {transform: rotate(90deg);transform-origin: center;}
+    50%, 45% {transform: rotate(135deg);transform-origin: center;}
+    65%, 60% {transform: rotate(180deg);transform-origin: center;}
+    80%, 75% {transform: rotate(225deg);transform-origin: center;}
+    95%, 90% {transform: rotate(270deg);transform-origin: center;}
+    100% {transform: rotate(360deg);transform-origin: center;}
+}
+@keyframes password1 {
 
     0%, 5% {transform: rotate(0deg);transform-origin: center;}
     20%, 15% {transform: rotate(45deg);transform-origin: center;}
