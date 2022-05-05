@@ -8,7 +8,11 @@
 
 
 .bg-constelation{
-    background-image: url("/image/voie-lactee.jpg");
+    /*background-image: url("/image/voie-lactee.jpg");*/
+    /*background: linear-gradient(#49288c, #0b124d);*/
+    background: linear-gradient(217deg, rgb(0, 34, 147), rgba(255,0,0,0) 100%),
+    linear-gradient(127deg, rgba(52, 33, 103, 1), rgba(0,255,0,0) 100%),
+    linear-gradient(336deg, rgb(60, 63, 65), rgba(0,0,255,0) 100%);
     /*style="background-image: url('{{asset('image/voie-lactee.jpg')}}');"*/
 }
 

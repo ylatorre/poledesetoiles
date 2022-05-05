@@ -6,11 +6,20 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'f32bfe365ea2f765b5083fc3460823ee26e51a72',
+    'reference' => '42f09dabad290615ca6cb71b0a33a8ae899faa6e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'biscolab/laravel-recaptcha' => 
+    array (
+      'pretty_version' => 'v5.3.0',
+      'version' => '5.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c5af231e59996603bfa8d86b0c5119621f934345',
+    ),
     'brick/math' => 
     array (
       'pretty_version' => '0.9.3',
@@ -425,7 +434,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f32bfe365ea2f765b5083fc3460823ee26e51a72',
+      'reference' => '42f09dabad290615ca6cb71b0a33a8ae899faa6e',
     ),
     'laravel/sail' => 
     array (

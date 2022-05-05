@@ -79,9 +79,26 @@
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
-{{--            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">--}}
-{{--                {{ __('Dashboard') }}--}}
-{{--            </x-responsive-nav-link>--}}
+
+            <x-responsive-nav-link :href="route('Accueil')" :active="request()->routeIs('Accueil')">
+                {{ __('Accueil') }}
+            </x-responsive-nav-link>
+
+            <x-responsive-nav-link :href="route('Planetarium')" :active="request()->routeIs('Planetarium')">
+                {{ __('Planetarium') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('ExpoPermanante')" :active="request()->routeIs('ExpoPermanante')">
+                {{ __('ExpoPermanante') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('Calendrier')" :active="request()->routeIs('Calendrier')">
+                {{ __('Calendrier') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('Goodies')" :active="request()->routeIs('Goodies')">
+                {{ __('Goodies') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('Contact')" :active="request()->routeIs('Contact')">
+                {{ __('Contact') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->

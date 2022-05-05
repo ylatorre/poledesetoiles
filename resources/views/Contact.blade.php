@@ -5,8 +5,8 @@
         </h2>
     </x-slot>
 
-
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+     {!! htmlScriptTagJsApi() !!}
 
         <div class="w-full flex items-center justify-center my-12">
             <div class="absolute top-40 bg-white dark:bg-gray-800 shadow rounded py-12 lg:px-28 px-8">
