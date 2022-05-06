@@ -23,32 +23,6 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"
     ></script>
 
-    <style>
-        @charset "UTF-8";
-        .video-thumbnail {
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-            margin: 30px;
-        }
-        .video-thumbnail:before {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -webkit-transform: translate(-50%, -50%);
-            content: "";
-            font-family: FontAwesome;
-            font-size: 100px;
-            color: #fff;
-            opacity: 0.8;
-            text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-        }
-        .video-thumbnail:hover:before {
-            color:  #FF0000;
-        }
-    </style>
-    <a href="//www.youtube.com/watch?v=hngajJJgV6c" data-lity>Voir la vidéo</a>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
@@ -128,7 +102,18 @@
                 <!-- Single item -->
                 <div class="carousel-item active">
                     <video  style="width: 100%; height: auto;" autoplay loop muted>
-                        <source src="https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+{{--                        <div style="width: 100%; height: 100%; float: none; clear: both;">--}}
+{{--                            <embed--}}
+{{--                                src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1"--}}
+{{--                                wmode="transparent"--}}
+{{--                                type="video/mp4"--}}
+{{--                                width="100%" height="100%"--}}
+{{--                                allow="autoplay; encrypted-media; picture-in-picture"--}}
+{{--                                allowfullscreen--}}
+{{--                                title="Keyboard Cat"--}}
+{{--                            >--}}
+{{--                        </div>--}}
+                        <source src="/videos/espace.mp4" type="video/mp4" />
                     </video>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
