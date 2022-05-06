@@ -101,7 +101,7 @@
             <div class="carousel-inner">
                 <!-- Single item -->
                 <div class="carousel-item active">
-                    <video  style="width: 100%; height: auto;" autoplay loop muted>
+{{--                    <video  style="width: 100%; height: auto;" autoplay loop muted>--}}
 {{--                        <div style="width: 100%; height: 100%; float: none; clear: both;">--}}
 {{--                            <embed--}}
 {{--                                src="https://www.youtube.com/embed/J---aiyznGQ?autohide=1&autoplay=1"--}}
@@ -113,8 +113,19 @@
 {{--                                title="Keyboard Cat"--}}
 {{--                            >--}}
 {{--                        </div>--}}
-                        <source src="/videos/espace.mp4" type="video/mp4" />
-                    </video>
+                    <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
+                        <embed
+                            src="https://www.youtube.com/embed/Y_plhk1FUQA?autohide=1&autoplay=1&mute=1"
+                            wmode="transparent"
+                            type="video/mp4"
+                            width="100%" height="100%"
+                            allow="autoplay; encrypted-media; picture-in-picture"
+                            allowfullscreen
+                            title="Keyboard Cat"
+                        >
+                    </div>
+{{--                        <source src="/videos/espace.mp4" type="video/mp4" />--}}
+{{--                    </video>--}}
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Images de la NASA dans l'espace lointain</h5>
                         <p>
@@ -145,6 +156,7 @@
                             type="video/mp4"
                         />
                     </video>
+
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>
