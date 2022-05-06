@@ -14,7 +14,8 @@
     <!-- This is an example component -->
     <div class="max-w-2xl mx-auto bg-white p-16">
 
-        <form>
+        <form method="post" action="{{route("recupcontact  ")}}">
+            @csrf
             <div class="grid gap-6 mb-6 lg:grid-cols-2">
                 <div>
                     <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First

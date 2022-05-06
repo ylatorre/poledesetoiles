@@ -20,6 +20,11 @@ class Controller extends BaseController
     {
 
         return view("Contact");
+
+    }    public function recupcontact(Resquet $resquet)
+    {
+
+        return view("Contact");
     }
 
     public function Planetarium()

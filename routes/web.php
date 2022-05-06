@@ -25,6 +25,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/', [Controller::class, 'Accueil'])->name('Accueil');
 Route::get('contact', [Controller::class, 'Contact'])->name('Contact');
+Route::post('recupcontact', [Controller::class, 'recupcontact'])->name('recupcontact');
 Route::get('Planetarium', [Controller::class, 'Planetarium'])->name('Planetarium');
 Route::get('ExpoPermanante', [Controller::class, 'ExpoPermanante'])->name('ExpoPermanante');
 Route::get('Calendrier', [Controller::class, 'Calendrier'])->name('Calendrier');
