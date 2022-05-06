@@ -152,7 +152,7 @@
                         >
                     </div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        <h5>Direct ISS</h5>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
@@ -161,12 +161,17 @@
 
                 <!-- Single item -->
                 <div class="carousel-item">
-                    <video style="width: 100%; height: auto;" autoplay loop muted>
-                        <source
-                            src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4"
+                    <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
+                        <embed
+                            src="https://youtu.be/tfloNULeDlY?autohide=1&autoplay=1&mute=1&controls=0"
+                            wmode="transparent"
                             type="video/mp4"
-                        />
-                    </video>
+                            width="100%" height="100%"
+                            allow="autoplay; encrypted-media; picture-in-picture"
+                            allowfullscreen
+                            title="Keyboard Cat"
+                        >
+                    </div>
 
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
