@@ -81,5 +81,10 @@ class Controller extends BaseController
     {
         return view("CarteCeleste5");
     }
+
+    public function Telescope()
+    {
+        return view("Telescope");
+    }
 }
 
