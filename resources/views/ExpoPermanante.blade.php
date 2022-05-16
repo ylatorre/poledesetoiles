@@ -35,7 +35,7 @@
         <!-- Inner -->
         <div class="carousel-inner relative w-full overflow-hidden">
             <!-- Single item -->
-            <div class="carousel-item active relative float-left w-full">
+            <div class="carousel-item active relative float-left w-full" style="height: 600px;object-fit: fill ">
                 <img
                     src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
                     class="block w-full"
@@ -48,28 +48,28 @@
             </div>
 
             <!-- Single item -->
-            <div class="carousel-item relative float-left w-full">
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
+            <div class="carousel-item relative float-left w-full " style="height: 600px">
+                <img style="object-fit: cover;"
+                    src="https://www.astrobin.com/b3gttn/final/rawthumb/qhd/?sync"
                     class="block w-full"
                     alt="Mountaintop"
                 />
-                <div class="carousel-caption hidden md:block absolute text-center">
+                <div class="carousel-caption hidden md:block absolute text-center"  >
                     <h5 class="text-xl">Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
 
             <!-- Single item -->
-            <div class="carousel-item relative float-left w-full">
-                <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
+            <div class="carousel-item relative float-left w-full" style=" background-color: black;height: 600px">
+                <img style="max-width: 1000px;"
+                    src="https://resize-parismatch.lanmedia.fr/r/375,250,FFFFFF,forcex,center-middle/img/var/pm/public/media/image/2022/05/12/16/La-premiere-photo-du-trou-noir-supermassif-de-notre-galaxie-enfin-devoilee.jpg?VersionId=gC4DIwmHVjgM.JCyFAPAnhlfGepNKOE."
                     class="block w-full"
                     alt="Woman Reading a Book"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl">Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5 class="text-xl text-white">Third slide label</h5>
+                    <p class="text-white">Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
         </div>

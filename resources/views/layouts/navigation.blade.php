@@ -20,7 +20,7 @@
                         {{ __('Planetarium') }}
                     </x-nav-link>
                     <x-nav-link :href="route('ExpoPermanante')" :active="request()->routeIs('ExpoPermanante')">
-                        {{ __('ExpoPermanante') }}
+                        {{ __('ExpoPermanente') }}
                     </x-nav-link>
                     <x-nav-link :href="route('Calendrier')" :active="request()->routeIs('Calendrier')">
                         {{ __('Calendrier') }}
@@ -91,7 +91,7 @@
                 {{ __('Planetarium') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('ExpoPermanante')" :active="request()->routeIs('ExpoPermanante')">
-                {{ __('ExpoPermanante') }}
+                {{ __('ExpoPermanente') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('Calendrier')" :active="request()->routeIs('Calendrier')">
                 {{ __('Calendrier') }}
