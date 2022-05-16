@@ -19,7 +19,7 @@
                 display: none;
             }
         </style>
-        <img src="image/invocationceleste.gif" alt="">
+{{--        <img src="image/invocationceleste.gif" alt="">--}}
 
         <div class="antialiased sans-serif bg-gray-100 h-screen">
             <div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>

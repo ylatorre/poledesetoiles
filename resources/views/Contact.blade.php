@@ -5,8 +5,8 @@
         </h2>
     </x-slot>
 
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-     {!! htmlScriptTagJsApi() !!}
+{{--    <meta name="csrf-token" content="{{ csrf_token() }}">--}}
+{{--     {!! htmlScriptTagJsApi() !!}--}}
 
 
 
@@ -14,7 +14,7 @@
     <!-- This is an example component -->
     <div class="max-w-2xl mx-auto bg-white p-16">
 
-        <form method="post" action="{{route("recupcontact  ")}}">
+        <form method="post" action="{{route("recupcontact")}}">
             @csrf
             <div class="grid gap-6 mb-6 lg:grid-cols-2">
                 <div>
