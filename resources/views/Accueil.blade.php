@@ -94,7 +94,7 @@
 
                 <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.youtube.com/embed/DDU-rZs-Ic4?&autohide=1&autoplay=1&mute=1&controls=0"
+                        src="https://www.youtube.com/embed/DDU-rZs-Ic4?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1"
                         wmode="transparent"
                         type="video/mp4"
                         width="100%" height="100%"
@@ -115,7 +115,7 @@
             <div class="carousel-item">
                 <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.youtube.com/embed/tfloNULeDlY?&autohide=1&autoplay=1&mute=1&controls=0"
+                        src="https://www.youtube.com/embed/tfloNULeDlY?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1"
                         wmode="transparent"
                         type="video/mp4"
                         width="100%" height="100%"
