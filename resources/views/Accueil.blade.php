@@ -104,9 +104,9 @@
                     >
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5>Vue de la Terre</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vue de la Terre de l'espace depuis ISS.
                     </p>
                 </div>
             </div>
@@ -126,9 +126,9 @@
                 </div>
 
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Les autres mondes</h5>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Un regard sur notre système Solaire.
                     </p>
                 </div>
             </div>
