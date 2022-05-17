@@ -48,3 +48,6 @@ body{
     95%, 90% {transform: rotate(270deg);transform-origin: center;}
     100% {transform: rotate(360deg);transform-origin: center;}
 }
+.ytp-title-text{
+    display: none;
+}

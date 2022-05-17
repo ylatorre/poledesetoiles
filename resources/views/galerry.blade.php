@@ -78,4 +78,11 @@
             </div>
         </div>
     </section>
+
+    @foreach($liens as $lien)
+{{--        @php--}}
+{{--        dd($lien->lien)--}}
+{{--        @endphp--}}
+        <img src="{{$lien->lien}}" alt="">
+    @endforeach
 </x-app-layout>
