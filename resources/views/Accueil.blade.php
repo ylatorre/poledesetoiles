@@ -70,7 +70,7 @@
                 {{--                        </div>--}}
                 <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.youtube.com/embed/Y_plhk1FUQA?start=11&autohide=1&autoplay=1&mute=1&controls=0"
+                        src="https://www.youtube.com/embed/Y_plhk1FUQA?start=15&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1"
                         wmode="transparent"
                         type="video/mp4"
                         width="100%" height="100%"
