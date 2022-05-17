@@ -68,7 +68,7 @@
                 {{--                                title="Keyboard Cat"--}}
                 {{--                            >--}}
                 {{--                        </div>--}}
-                <div style="width: 100%; height: 800%; float: none; clear: both; margin: 2px auto;">
+                <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
                         src="https://www.youtube.com/embed/Y_plhk1FUQA?start=15&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
@@ -92,7 +92,7 @@
             <!-- Single item -->
             <div class="carousel-item">
 
-                <div style="width: 100%; height: 800%; float: none; clear: both; margin: 2px auto;">
+                <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
                         src="https://www.youtube.com/embed/DDU-rZs-Ic4?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
@@ -113,7 +113,7 @@
 
             <!-- Single item -->
             <div class="carousel-item">
-                <div style="width: 100%; height: 800%; float: none; clear: both; margin: 2px auto;">
+                <div style="width: 100%; height: 800x; float: none; clear: both; margin: 2px auto;">
                     <embed
                         src="https://www.youtube.com/embed/tfloNULeDlY?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
