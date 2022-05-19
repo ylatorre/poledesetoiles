@@ -121,7 +121,7 @@
                             <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste Gnomic</h5>
                             <p class="text-gray-700 text-base mb-4">
                                 Carte stellaire en mode vue gnomic à la position géographique du Pôle de Etoiles en
-                                temps réel, hémisphère nord et sud avec zoom possible .
+                                temps réel, horizon visible et non-visible avec zoom possible .
                             </p>
                             <a href="{{ route('CarteCeleste') }}">
                                 <button type="button"

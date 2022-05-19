@@ -103,22 +103,29 @@
 												'border-green-200 text-green-800 bg-green-100': event.event_theme === 'green',
 												'border-purple-200 text-purple-800 bg-purple-100': event.event_theme === 'purple'
 											}"
-                                                >
+                                                ><div class="py-12">
+                                                    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                                                        <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                                                            <div class="p-6 bg-white border-b border-gray-200">
 À la belle saison, si vous souhaitez voir de vos propres yeux des étoiles,
-munissez-vous d’une couverture, d’habits chauds et armez-vous de patience.
+munissez-vous d’une couverture, d’habits chauds et armez-vous de patience.<br><br>
 
-16 mai 2022 : éclipse de lune pour les lève-tôt.
+16 mai 2022 : éclipse de lune pour les lève-tôt.<br>
 La lune passe dans l’ombre de la Terre et s’assombrit,
-pour prendre une légère teinte rouge orangée. Début du phénomène à 4h27. Maximum à 6h11. Sachant que la lune se couchera à 6h03.
-Il faut trouver un horizon sud-ouest parfaitement dégagé.
-27 au 30 avril 2022, alignement des planètes : Jupiter, Vénus, Mars et Saturne. Encore pour les lève-tôt, 6h du matin, horizon sud-est.
-Deux « Super » Lunes en 2022 : la Lune étant plus proche de la Terre, elle apparaît un peu plus grosse dans le ciel.
-– La Super Lune de la fraise le 14 juin (ce qui correspond à la cueillette des fraises)
-– La Super Lune du cerf le 13 juillet (car les bois des cerfs sont en pleine phase de croissance)
-Pluie d’étoiles filantes :
-– Eta aquarides autour du 6/7 mai : quelques dizaines par heure.
-– Perséides autour du 12/13 août : quelques dizaines par heure.
-Un conseil de Arnaud Paradis du Pôle des Étoiles : pour les observer, choisir un lieu peu éclairé, s’installer dans un transat ou à même le sol et faire des vœux.
+pour prendre une légère teinte rouge orangée. Début du phénomène à 4h27. Maximum à 6h11. Sachant que la lune se couchera à 6h03.<br>
+Il faut trouver un horizon sud-ouest parfaitement dégagé.<br>
+27 au 30 avril 2022, alignement des planètes : Jupiter, Vénus, Mars et Saturne. Encore pour les lève-tôt, 6h du matin, horizon sud-est.<br>
+Deux « Super » Lunes en 2022 : la Lune étant plus proche de la Terre, elle apparaît un peu plus grosse dans le ciel.<br>
+– La Super Lune de la fraise le 14 juin (ce qui correspond à la cueillette des fraises)<br>
+– La Super Lune du cerf le 13 juillet (car les bois des cerfs sont en pleine phase de croissance)<br>
+Pluie d’étoiles filantes :<br>
+– Eta aquarides autour du 6/7 mai : quelques dizaines par heure.<br>
+– Perséides autour du 12/13 août : quelques dizaines par heure.<br>
+Un conseil de Arnaud Paradis du Pôle des Étoiles : pour les observer, choisir un lieu peu éclairé, s’installer dans un transat ou à même le sol et faire des vœux.<br>
+</div>
+</div>
+</div>
+</div>
 
 
                                                     <p x-text="event.event_title" class="text-sm truncate leading-tight"></p>

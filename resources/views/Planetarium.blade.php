@@ -37,32 +37,38 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    Ici la visite virtuel de notre planetarium creer en 1995
+                    Ici la visite virtuel de notre planetarium creer en 1995<br><br>
 
-                    Présentation
+                    Présentation<br><br>
                     Observer le ciel la nuit impose des contraintes que l’on peut dépasser aujourd’hui par l’utilisation d’un planétarium
                     itinérant gonflable pour les grands comme plus les plus petits.
+                    <p>
+                        <br><br>
+                    <img src=https://www.planete-sciences.org/astro/IMG/jpg/plane_2.jpg>
+                    <p>
+                        <br>
 
-                    https://www.planete-sciences.org/astro/IMG/jpg/plane_2.jpg
-
-
-                    Le planétarium vu de face
+                    Le planétarium vu de face<br><br>
                     La structure gonflable et le système de projection du planétarium permettent de montrer près de 800 étoiles,
-                     les positions du Soleil, de la Lune et des cinq planètes visibles à l’œil nu : Mercure, Vénus, Mars, Jupiter et Saturne.
+                     les positions du Soleil, de la Lune et des cinq planètes visibles à l’œil nu : Mercure, Vénus, Mars, Jupiter et Saturne.<br>
                       Plongé·e·s dans l’obscurité, les jeunes pourront s’initier à la connaissance des constellations du zodiaque,
                        de la mythologie et de l’orientation dans le ciel et sur Terre.
-
-
-
+                       <p>
+                        <br>
+                        <img src=https://www.planete-sciences.org/astro/local/cache-vignettes/L1000xH1333/dscn8334-2503b.jpg?1643542440>
+                        <br>
                     Intérieur du Planétarium
-
+                    <p><br>
+                        <img src=https://www.planete-sciences.org/astro/local/cache-vignettes/L1000xH1337/img_20201016_180534-6642d.jpg?1643542440><br>
                     Système de projection du planétarium
+                    <p><br>
                     Le planétarium peut également être utilisé sans sa bâche, en projetant sur une sphère semi-transparente. Ci-dessous, un exemple avec Jupiter.
-
-
-                    Planétarium en projection sur une sphère, sans sa bâche
-                    Capacité d’accueil : 15 à 20 personnes
-                    Durée : séances de 35 à 45 min
+                    <br><br>
+                    <img src=https://www.planete-sciences.org/astro/local/cache-vignettes/L1000xH1319/plane_1-84803.jpg?1643542440>
+                    <p><br>
+                    Planétarium en projection sur une sphère, sans sa bâche<br>
+                    Capacité d’accueil : 15 à 20 personnes<br>
+                    Durée : séances de 35 à 45 min<br>
 
 
                 </div>
