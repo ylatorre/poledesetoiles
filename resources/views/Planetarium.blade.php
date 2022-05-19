@@ -43,10 +43,10 @@
                     Observer le ciel la nuit impose des contraintes que l’on peut dépasser aujourd’hui par l’utilisation d’un planétarium
                     itinérant gonflable pour les grands comme plus les plus petits.
                     <p>
-
+                        <br>
                     <img src=https://www.planete-sciences.org/astro/IMG/jpg/plane_2.jpg>
                     <p>
-
+                        <br>
 
                     Le planétarium vu de face
                     La structure gonflable et le système de projection du planétarium permettent de montrer près de 800 étoiles,
@@ -54,18 +54,18 @@
                       Plongé·e·s dans l’obscurité, les jeunes pourront s’initier à la connaissance des constellations du zodiaque,
                        de la mythologie et de l’orientation dans le ciel et sur Terre.
                        <p>
-
+                        <br>
                         <img src=https://www.planete-sciences.org/astro/local/cache-vignettes/L1000xH1333/dscn8334-2503b.jpg?1643542440>
-
+                        <br>
                     Intérieur du Planétarium
-                    <p>
+                    <p><br>
                         <img src=https://www.planete-sciences.org/astro/local/cache-vignettes/L1000xH1337/img_20201016_180534-6642d.jpg?1643542440>
                     Système de projection du planétarium
-                    <p>
+                    <p><br>
                     Le planétarium peut également être utilisé sans sa bâche, en projetant sur une sphère semi-transparente. Ci-dessous, un exemple avec Jupiter.
-
+                    <br>
                     <img src=https://www.planete-sciences.org/astro/local/cache-vignettes/L1000xH1319/plane_1-84803.jpg?1643542440>
-                    <p>
+                    <p><br>
                     Planétarium en projection sur une sphère, sans sa bâche
                     Capacité d’accueil : 15 à 20 personnes
                     Durée : séances de 35 à 45 min
