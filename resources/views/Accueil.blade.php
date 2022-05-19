@@ -226,4 +226,21 @@
     <x-slot name="header" style="display: none; visibility: hidden;">
     </x-slot>
 
+    <style>
+        .carousel-control-next{
+            width: 50%;
+        }
+        .carousel-control-prev{
+            width: 50%;
+        }
+        .carousel-control-next-icon{
+            padding-left: 70%;
+        }
+
+        .carousel-control-prev-icon {
+            padding-right: 70%;
+        }
+
+    </style>
+
 </x-app-layout>
