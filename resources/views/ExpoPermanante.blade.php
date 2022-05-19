@@ -96,9 +96,9 @@
         </button>
     </div>
 
-
+<div class="backgroundGalaxy" style="width: 100%;height: 100%"></div>
     {{--    img galaxy--}}
-    <section class="overflow-hidden text-gray-700 " style="background-color: #c2ccd1">
+    <section class="overflow-hidden text-gray-700  ">
 
         @for($i =0; $i < count($liens); $i= $i+6)
 
