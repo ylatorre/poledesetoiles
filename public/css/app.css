@@ -1619,7 +1619,7 @@ body{
     /*z-index:0;*/
 }
 *{
-    cursor: src('../image/cursor.png');
+    cursor: url(https://media.discordapp.net/attachments/885076862286589953/976847259230683136/unknown.png), auto;
 
 }
 .hover\:border-gray-300:hover {
