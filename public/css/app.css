@@ -1619,8 +1619,9 @@ body{
     /*z-index:0;*/
 }
 *{
-    cursor: url(https://media.discordapp.net/attachments/885076862286589953/976847259230683136/unknown.png)20 10, auto;
-
+    /*cursor: url(https://media.discordapp.net/attachments/885076862286589953/976847259230683136/unknown.png)20 10, auto;*/
+    cursor: url(https://i.ibb.co/pRwcH5j/curso-minin-recardrer.png)5 5, auto;
+    /*transform: rotate(45deg);       */
 }
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
