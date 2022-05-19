@@ -99,7 +99,7 @@
             <div class="carousel-item">
                 <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.obs-nancay.fr/wp-content/uploads/2020/01/introHD.mp4"
+                        src="https://www.obs-nancay.fr/wp-content/uploads/2020/01/introHD.webm"
                         wmode="transparent" type="video/mp4" width="100%" height="100%"
                         allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Keyboard Cat">
                 </div>
