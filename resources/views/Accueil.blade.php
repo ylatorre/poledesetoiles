@@ -65,7 +65,7 @@
                         allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Keyboard Cat">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <div style="text-shadow: 1px 1px 2px black;">
+                    <div style="text-shadow: 2px 2px 2px black;">
                         <h5>Vue de la Terre</h5>
                         <p>
                             Vue de la Terre de l'espace depuis ISS.
