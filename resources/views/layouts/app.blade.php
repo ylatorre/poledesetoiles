@@ -7,7 +7,7 @@
         @php
             header('Access-Control-Allow-Origin: *');
         @endphp
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'PoleDesEtoiles') }}</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
