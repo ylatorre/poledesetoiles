@@ -29,6 +29,8 @@
         >
     </div>
 
-
+    <script type="text/javascript">
+        document.getElementsByClassName("ytp-title-text").class = display: none;
+    </script>
 
 </x-app-layout>
