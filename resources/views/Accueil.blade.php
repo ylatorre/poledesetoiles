@@ -70,7 +70,7 @@
                 {{--                        </div>--}}
                 <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.youtube.com/embed/Y_plhk1FUQA?start=11&autohide=1&autoplay=1&mute=1&controls=0"
+                        src="https://www.youtube.com/embed/Y_plhk1FUQA?start=15&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
                         type="video/mp4"
                         width="100%" height="100%"
@@ -94,7 +94,7 @@
 
                 <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.youtube.com/embed/DDU-rZs-Ic4?&autohide=1&autoplay=1&mute=1&controls=0"
+                        src="https://www.youtube.com/embed/DDU-rZs-Ic4?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
                         type="video/mp4"
                         width="100%" height="100%"
@@ -104,18 +104,18 @@
                     >
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5>Vue de la Terre</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vue de la Terre de l'espace depuis ISS.
                     </p>
                 </div>
             </div>
 
             <!-- Single item -->
             <div class="carousel-item">
-                <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
+                <div style="width: 100%; height: 800x; float: none; clear: both; margin: 2px auto;">
                     <embed
-                        src="https://www.youtube.com/embed/tfloNULeDlY?&autohide=1&autoplay=1&mute=1&controls=0"
+                        src="https://www.youtube.com/embed/tfloNULeDlY?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
                         type="video/mp4"
                         width="100%" height="100%"
@@ -126,9 +126,9 @@
                 </div>
 
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Les autres mondes</h5>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Un regard sur notre système Solaire.
                     </p>
                 </div>
             </div>
@@ -164,10 +164,9 @@
                             <img class="rounded-t-lg" src="image/img.png" alt=""/>
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste Stereo</h5>
+                            <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste Gnomic</h5>
                             <p class="text-gray-700 text-base mb-4">
-                                Some quick example text to build on the card title and make up the bulk of the card's
-                                content.
+                                Carte stellaire en mode vue gnomic à la position géographique du Pôle de Etoiles en temps réel, hémisphère nord et sud avec zoom possible .
                             </p>
                             <a href="{{ route('CarteCeleste') }}">
                             <button type="button"  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
@@ -183,10 +182,10 @@
                             <img class="rounded-t-lg" src="image/img.png" alt=""/>
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste Stereo</h5>
+                            <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste Planechar</h5>
                             <p class="text-gray-700 text-base mb-4">
-                                Some quick example text to build on the card title and make up the bulk of the card's
-                                content.
+                                Carte stellaire en mode horizon visible à la position géographique du Pôle de Etoiles en temps réel.
+                            </p>
                             </p>
                             <a href="{{ route('CarteCeleste4') }}">
                             <button type="button"  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
@@ -202,10 +201,9 @@
                             <img class="rounded-t-lg" src="image/img.png" alt=""/>
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste Stereo</h5>
+                            <h5 class="text-gray-900 text-xl font-medium mb-2">Carte Cesleste mollweide</h5>
                             <p class="text-gray-700 text-base mb-4">
-                                Some quick example text to build on the card title and make up the bulk of the card's
-                                content.
+                                Carte stellaire en ovale à la position géographique du Pôle de Etoiles en temps réel.
                             </p>
                             <a href="{{ route('CarteCeleste5') }}">
                             <button type="button"  class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
