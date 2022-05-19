@@ -177,6 +177,28 @@
 
         </div>
     </div>
+    <div class="bg-gray-200 ">
+        <div class="container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
+            <div class="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
+                <div class="max-w-lg">
+                    <h1 class="text-xl tracking-wide text-white text-gray-800 lg:text-3xl lg:text-4xl">calendrier
+                        </h1>
+                    <p class="mt-4 text-gray-300 text-gray-600">reserver vos prochaine visite au pole stronomique
+                        afin de choisir une date qui vous permetra de voir des henomene astronaumique,
+                        un souvenir fantastique pour les grands et les petits.</p>
+                    <div class="mt-6">
+                        <a href="#"
+                            class="inline-block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400">
+                            Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-full mt-2 lg:h-96 lg:w-1/2">
+                <img class="object-cover w-full max-w-2xl rounded-md lg:h-full"
+                    src="https://i.ibb.co/16fnL7p/Capture.png" alt="apple watch photo">
+            </div>
+        </div>
+    </div>
 
     <x-slot name="header" style="display: none; visibility: hidden;">
     </x-slot>
