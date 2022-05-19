@@ -113,7 +113,7 @@
 
             <!-- Single item -->
             <div class="carousel-item">
-                <div style="width: 100%; height: 800x; float: none; clear: both; margin: 2px auto;">
+                <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
                     <embed
                         src="https://www.youtube.com/embed/tfloNULeDlY?&autohide=1&autoplay=1&mute=1&controls=0&disablekb=1&modestbranding=1&showinfo=0"
                         wmode="transparent"
