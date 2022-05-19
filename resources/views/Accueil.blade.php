@@ -47,11 +47,13 @@
                 {{-- <source src="/videos/espace.mp4" type="video/mp4" /> --}}
                 {{-- </video> --}}
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Images de la NASA dans l'espace lointain</h5>
-                    <p>
-                        voyage dans les profondeurs de l'univers, à la découverte des galaxies, des nébuleuses, des
-                        étoiles et même des planètes, telles qu'elles sont perçues.
-                    </p>
+                    <div style="text-shadow: 2px 2px 2px black;">
+                        <h5>Images de la NASA dans l'espace lointain</h5>
+                         <p>
+                            voyage dans les profondeurs de l'univers, à la découverte des galaxies, des nébuleuses, des
+                            étoiles et même des planètes, telles qu'elles sont perçues.
+                         </p>
+                    </div>
                 </div>
             </div>
 
@@ -84,10 +86,12 @@
                 </div>
 
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Les autres mondes</h5>
-                    <p>
-                        Un regard sur notre système Solaire.
-                    </p>
+                    <div style="text-shadow: 2px 2px 2px black;">
+                        <h5>Les autres mondes</h5>
+                        <p>
+                            Un regard sur notre système Solaire.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
