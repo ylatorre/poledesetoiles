@@ -4,6 +4,7 @@
             {{ __('ExpoPermanante') }}
         </h2>
     </x-slot>
+    <link rel="stylesheet" href="{{ asset('scss/scss2.css') }}">
 
 
     <div
@@ -96,16 +97,212 @@
         </button>
     </div>
 
-    <!-- include Aladin Lite CSS file in the head section of your page -->
-    <link rel="stylesheet" href="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css" />
 
-    <!-- you can skip the following line if your page already integrates the jQuery library -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js" charset="utf-8"></script>
+    {{--    img galaxy--}}
+    <section class="overflow-hidden text-gray-700 " style="background-color: white">
 
-    <!-- insert this snippet where you want Aladin Lite viewer to appear and after the loading of jQuery -->
-    <div id="aladin-lite-div" style="width:400px;height:400px;"></div>
-    <script type="text/javascript" src="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
-    <script type="text/javascript">
-        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:60});
-    </script>
+        @for($i =0; $i < count($liens); $i= $i+6)
+
+            @if($i == count($liens))
+                @break
+            @endif
+
+            <div class="container px-5  mx-auto  lg:px-32">
+                <div class="flex flex-wrap -m-1 md:-m-2">
+                    <div class="flex flex-wrap w-1/2">
+                        <div class="w-full p-1 md:p-2">
+                            <div class="example">
+                                <div class="food-card">
+                                    <div class="card">
+                                        <div class="card-img image-ratio">
+                                            <div class="ratio-inner">
+                                                <div class="w-full p-1 md:p-2">
+                                                    <div>
+                                                        <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                                                             class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
+                                                             src="{{$liens[$i]->lien}}">
+                                                        <div class="card-content">
+                                                            <div class="content">
+                                                                <h3 class="title">{{$liens[$i]->titre}}</h3>
+                                                                <p class="description">{{$liens[$i]->text}}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @if($i+1 == count($liens))
+                            @break
+                        @endif
+                        <div class="w-1/2 p-1 md:p-2">
+                            <div class="food-card">
+                                <div class="card">
+                                    <div class="card-img image-ratio">
+                                        <div class="ratio-inner">
+                                            <div class="w-full p-1 md:p-2">
+                                                <div>
+                                                    <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                                                         class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
+                                                         src="{{$liens[$i+1]->lien}}">
+                                                    <div class="card-content">
+                                                        <div class="content">
+                                                            <h3 class="title">{{$liens[$i+1]->titre}}</h3>
+                                                            <p class="description">{{$liens[$i+1]->text}}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {{--                            <img alt="gallery" loading="lazy" style="max-height: 400px"--}}
+                            {{--                                 class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300"--}}
+                            {{--                                 src="{{$liens[$i+1]->lien}}">--}}
+                        </div>
+                        @if($i+2 == count($liens))
+                            @break
+                        @endif
+                        <div class="w-1/2 p-1 md:p-2">
+                            <div class="food-card">
+                                <div class="card">
+                                    <div class="card-img image-ratio">
+                                        <div class="ratio-inner">
+                                            <div class="w-full p-1 md:p-2">
+                                                <div>
+                                                    <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                                                         class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
+                                                         src="{{$liens[$i+2]->lien}}">
+                                                    <div class="card-content">
+                                                        <div class="content">
+                                                            <h3 class="title">{{$liens[$i+2]->titre}}</h3>
+                                                            <p class="description">{{$liens[$i+2]->text}}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {{--                            <img alt="gallery" loading="lazy" style="max-height: 400px"--}}
+                            {{--                                 class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300"--}}
+                            {{--                                 src="{{$liens[$i+2]->lien}}">--}}
+                        </div>
+                    </div>
+                    @if($i+3 == count($liens))
+                        @break
+                    @endif
+                    <div class="flex flex-wrap w-1/2">
+                        <div class="w-1/2 p-1 md:p-2">
+                            <div class="food-card">
+                                <div class="card">
+                                    <div class="card-img image-ratio">
+                                        <div class="ratio-inner">
+                                            <div class="w-full p-1 md:p-2">
+                                                <div>
+                                                    <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                                                         class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
+                                                         src="{{$liens[$i+3]->lien}}">
+                                                    <div class="card-content">
+                                                        <div class="content">
+                                                            <h3 class="title">{{$liens[$i+3]->titre}}</h3>
+                                                            <p class="description">{{$liens[$i+3]->text}}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {{--                            <img alt="gallery" loading="lazy" style="max-height: 400px"--}}
+                            {{--                                 class="block object-cover object-center w-full h-full rounded-lg opacity-70 hover:opacity-100 duration-300"--}}
+                            {{--                                 src="{{$liens[$i+3]->lien}}">--}}
+
+                            <h1 class="opacity-25 hover:opacity-100">{{$liens[$i+3]->text}}</h1>
+                            {{--                        <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>--}}
+                        </div>
+                        @if($i+4 == count($liens))
+                            @break
+                        @endif
+                        <div class="w-1/2 p-1 md:p-2">
+                            <div class="food-card">
+                                <div class="card">
+                                    <div class="card-img image-ratio">
+                                        <div class="ratio-inner">
+                                            <div class="w-full p-1 md:p-2">
+                                                <div>
+                                                    <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                                                         class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
+                                                         src="{{$liens[$i+4]->lien}}">
+                                                    <div class="card-content">
+                                                        <div class="content">
+                                                            <h3 class="title">{{$liens[$i+4]->titre}}</h3>
+                                                            <p class="description">{{$liens[$i+4]->text}}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {{--                            <img alt="gallery" loading="lazy" style="max-height: 400px"--}}
+                            {{--                                 class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300"--}}
+                            {{--                                 src="{{$liens[$i+4]->lien}}">--}}
+                        </div>
+                        @if($i+5 == count($liens))
+                            @break
+                        @endif
+                        <div class="w-full p-1 md:p-2">
+                            <div class="food-card">
+                                <div class="card">
+                                    <div class="card-img image-ratio">
+                                        <div class="ratio-inner">
+                                            <div class="w-full p-1 md:p-2">
+                                                <div>
+                                                    <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                                                         class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
+                                                         src="{{$liens[$i+5]->lien}}">
+                                                    <div class="card-content">
+                                                        <div class="content">
+                                                            <h3 class="title">{{$liens[$i+5]->titre}}</h3>
+                                                            <p class="description">{{$liens[$i+5]->text}}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {{--                            <img alt="gallery" loading="lazy" style="max-height: 400px"--}}
+                            {{--                                 class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300"--}}
+                            {{--                                 src="{{$liens[$i+5]->lien}}">--}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{--        @php--}}
+            {{--        dd($lien->lien)--}}
+            {{--        @endphp--}}
+        @endfor
+    </section>
+
+
+
+
+
 </x-app-layout>

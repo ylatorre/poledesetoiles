@@ -35,7 +35,12 @@ class Controller extends BaseController
 
     public function ExpoPermanante()
     {
-        return view("ExpoPermanante");
+        $liens = DB::table("galaxy")->select("lien","text","titre")->get();
+//        dd($liens);
+
+        return view("ExpoPermanante",[
+            "liens"=>$liens,
+        ]);
     }
 
     public function Calendrier()

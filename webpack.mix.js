@@ -16,5 +16,6 @@ mix.js('resources/js/app.js', 'public/js')
     require('postcss-import'),
     require('tailwindcss'),
     require('autoprefixer'),
-]).sass('resources/scss/scss.scss', "public/scss/")
+]).sass('resources/scss/scss.scss', "public/scss/scss.css")
+    .sass('resources/scss/scss2.scss', "public/scss/scss2.css")
 ;
