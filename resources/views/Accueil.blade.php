@@ -104,10 +104,14 @@
                     >
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Vue de la Terre</h5>
-                    <p>
-                        Vue de la Terre de l'espace depuis ISS.
-                    </p>
+                    <div style="background-color: rgba(128,128,128,0.3);
+                                height: 5em;
+                                width: 300px;">
+                        <h5>Vue de la Terre</h5>
+                        <p>
+                            Vue de la Terre de l'espace depuis ISS.
+                        </p>
+                    </div>
                 </div>
             </div>
 
