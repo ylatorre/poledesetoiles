@@ -40,13 +40,13 @@
             <!-- Single item -->
             <div class="carousel-item active relative float-left w-full" style="height: 600px;object-fit: fill ">
                 <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
+                    src="https://cdn.astrobin.com/thumbs/nnWUNIgdHvaO_2560x0_n1wMX-gx.png"
                     class="block w-full"
                     alt="Motorbike Smoke"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl">First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5 class="text-xl text-white">NGC 6992 - The Eastern Veil Nebula (SHO)</h5>
+                    <p class="text-white">Instruments De Prise De Vue: Takahashi CCA-250</p>
                 </div>
             </div>
 
@@ -71,8 +71,8 @@
                     alt="Woman Reading a Book"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl text-white">Third slide label</h5>
-                    <p class="text-white">Some representative placeholder content for the third slide.</p>
+                    <h5 class="text-xl text-white">Trou noir Sagittarius A</h5>
+                    <p class="text-white">Trou noir géant situé au centre de notre propre galaxie, la Voie lactée</p>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
 
     {{--    img galaxy--}}
 {{--    <div class="backgroundGalaxy"></div>--}}
-    <section class="overflow-hidden text-gray-700  ">
+    <section class="overflow-hidden text-gray-700 mt-2 ">
 
         @for($i =0; $i < count($liens); $i= $i+6)
             <img src="https://i.ibb.co/tYC260T/unknown.png" style="position: absolute; width: 100%"   alt="">

@@ -45,14 +45,7 @@
                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500"
                            placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                 </div>
-                {{--                <div>--}}
-                {{--                    <label for="website" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Website URL</label>--}}
-                {{--                    <input type="url" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="flowbite.com" required>--}}
-                {{--                </div>--}}
-                {{--                <div>--}}
-                {{--                    <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Unique visitors (per month)</label>--}}
-                {{--                    <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required>--}}
-                {{--                </div>--}}
+
             </div>
             <div class="mb-6">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email
@@ -65,9 +58,7 @@
             <div class="mb-6">
                 <label for="email"
                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
-                {{--                <input type="email" id="email"--}}
-                {{--                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500"--}}
-                {{--                       placeholder="john.doe@company.com" required>--}}
+
                 <textarea
                     class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded bg-gray-50 transition ease-in-out dark:border-gray-600 m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
       "
@@ -76,14 +67,7 @@
                     placeholder="Your message" required
                 ></textarea>
             </div>
-            {{--            <div class="mb-6">--}}
-            {{--                <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Password</label>--}}
-            {{--                <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="•••••••••" required>--}}
-            {{--            </div>--}}
-            {{--            <div class="mb-6">--}}
-            {{--                <label for="confirm_password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Confirm password</label>--}}
-            {{--                <input type="password" id="confirm_password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="•••••••••" required>--}}
-            {{--            </div>--}}
+
             <div class="flex items-start mb-6">
                 <div class="flex items-center h-5">
                     <input id="remember" type="checkbox" value=""
