@@ -43,7 +43,7 @@
                     Observer le ciel la nuit impose des contraintes que l’on peut dépasser aujourd’hui par l’utilisation d’un planétarium
                     itinérant gonflable pour les grands comme plus les plus petits.
 
-                    https://www.planete-sciences.org/astro/IMG/jpg/plane_2.jpg
+                    <img src=https://www.planete-sciences.org/astro/IMG/jpg/plane_2.jpg>
 
 
                     Le planétarium vu de face
