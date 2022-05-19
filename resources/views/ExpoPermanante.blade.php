@@ -1,9 +1,12 @@
+
 <x-app-layout>
+
     <x-slot name="header" class="invisible">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('ExpoPermanante') }}
         </h2>
     </x-slot>
+
     <link rel="stylesheet" href="{{ asset('scss/scss2.css') }}">
 
         <div
@@ -96,11 +99,12 @@
         </button>
     </div>
 
-<div class="backgroundGalaxy" style="width: 100%;height: 100%"></div>
     {{--    img galaxy--}}
+{{--    <div class="backgroundGalaxy"></div>--}}
     <section class="overflow-hidden text-gray-700  ">
 
         @for($i =0; $i < count($liens); $i= $i+6)
+            <img src="https://i.ibb.co/tYC260T/unknown.png" style="position: absolute; width: 100%"   alt="">
 
             @if($i == count($liens))
                 @break
