@@ -18,7 +18,7 @@ return new class extends Migration
             $table->id();
             $table->string('lien');
             $table->string('titre');
-            $table->string('text');
+            $table->longText('text');
         });
     }
 

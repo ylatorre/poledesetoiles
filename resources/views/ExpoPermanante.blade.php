@@ -6,17 +6,16 @@
     </x-slot>
     <link rel="stylesheet" href="{{ asset('scss/scss2.css') }}">
 
-
-    <div
-        id="carouselDarkVariant"
-        class="carousel slide carousel-fade carousel-dark relative"
-        data-bs-ride="carousel"
-    >
-        <!-- Indicators -->
-        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-            <button
-                data-bs-target="#carouselDarkVariant"
-                data-bs-slide-to="0"
+        <div
+            id="carouselDarkVariant"
+            class="carousel slide carousel-fade carousel-dark relative"
+            data-bs-ride="carousel"
+        >
+            <!-- Indicators -->
+            <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                <button
+                    data-bs-target="#carouselDarkVariant"
+                    data-bs-slide-to="0"
                 class="active"
                 aria-current="true"
                 aria-label="Slide 1"
@@ -99,7 +98,7 @@
 
 
     {{--    img galaxy--}}
-    <section class="overflow-hidden text-gray-700 " style="background-color: white">
+    <section class="overflow-hidden text-gray-700 " style="background-color: #c2ccd1">
 
         @for($i =0; $i < count($liens); $i= $i+6)
 
@@ -107,18 +106,18 @@
                 @break
             @endif
 
-            <div class="container px-5  mx-auto  lg:px-32">
-                <div class="flex flex-wrap -m-1 md:-m-2">
-                    <div class="flex flex-wrap w-1/2">
-                        <div class="w-full p-1 md:p-2">
-                            <div class="example">
-                                <div class="food-card">
-                                    <div class="card">
-                                        <div class="card-img image-ratio">
-                                            <div class="ratio-inner">
-                                                <div class="w-full p-1 md:p-2">
-                                                    <div>
-                                                        <img alt="gallery" loading="lazy" style="max-height: 400px;"
+                <div class="container px-5  mx-auto  lg:px-32">
+                    <div class="flex flex-wrap -m-1 md:-m-2" loading="lazy">
+                        <div class="flex flex-wrap w-1/2">
+                            <div class="w-full p-1 md:p-2">
+                                <div class="example">
+                                    <div class="food-card">
+                                        <div class="card">
+                                            <div class="card-img image-ratio">
+                                                <div class="ratio-inner">
+                                                    <div class="w-full p-1 md:p-2">
+                                                        <div>
+                                                            <img alt="gallery" loading="lazy" style="max-height: 400px;"
                                                              class="block object-cover object-center w-full h-full rounded-lg  opacity-70 hover:opacity-100 duration-300 "
                                                              src="{{$liens[$i]->lien}}">
                                                         <div class="card-content">
@@ -228,7 +227,7 @@
                             {{--                                 class="block object-cover object-center w-full h-full rounded-lg opacity-70 hover:opacity-100 duration-300"--}}
                             {{--                                 src="{{$liens[$i+3]->lien}}">--}}
 
-                            <h1 class="opacity-25 hover:opacity-100">{{$liens[$i+3]->text}}</h1>
+                            {{--                            <h1 class="opacity-25 hover:opacity-100">{{$liens[$i+3]->text}}</h1>--}}
                             {{--                        <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>--}}
                         </div>
                         @if($i+4 == count($liens))
@@ -300,8 +299,6 @@
             {{--        @endphp--}}
         @endfor
     </section>
-
-
 
 
 
