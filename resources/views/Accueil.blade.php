@@ -94,25 +94,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Single item -->
-            <div class="carousel-item">
-                <div style="width: 100%; height: 800px; float: none; clear: both; margin: 2px auto;">
-                    <embed
-                        src="https://www.obs-nancay.fr/wp-content/uploads/2020/01/introHD.webm"
-                        wmode="transparent" type="video/mp4" width="100%" height="100%"
-                        allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Keyboard Cat">
-                </div>
-
-                <div class="carousel-caption d-none d-md-block">
-                    <div style="text-shadow: 2px 2px 2px black;">
-                        <h5>Notre radiotelescope</h5>
-                        <p>
-                            Un petit coup d'oeil sur notre radiotelescope.
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div>
         <!-- Inner -->
 
