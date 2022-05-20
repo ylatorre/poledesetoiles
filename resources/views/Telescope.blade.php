@@ -1,9 +1,9 @@
-<<<<<<< Updated upstream
 
 <x-app-layout>
     <x-slot name="header" class="invisible">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Telescope') }}
+            {{ __('Le Téléscope Optique') }}
+
         </h2>
     </x-slot>
 
@@ -98,24 +98,12 @@
         </button>
     </div>
 
-    <!-- include Aladin Lite CSS file in the head section of your page -->
-    <link rel="stylesheet" href="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css" />
 
-    <!-- you can skip the following line if your page already integrates the jQuery library -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js" charset="utf-8"></script>
 
-    <!-- insert this snippet where you want Aladin Lite viewer to appear and after the loading of jQuery -->
-    <div id="aladin-lite-div" style="width:400px;height:400px;"></div>
-    <script type="text/javascript" src="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
-    <script type="text/javascript">
-        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:60});
-    </script>
-=======
-<x-app-layout>
 
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Téléscope') }}
+            {{ __('Le Téléscope Optique') }}
         </h2>
     </x-slot>
 
@@ -139,7 +127,6 @@
     </script>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <h2 class="py-8">Le Téléscope Optique</h2>
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg" >
                 <div class="p-6 bg-white border-b border-gray-200" style="display: flex;flex-direction: column;">
                    Le télescope est un instrument qui fait paraître les choses éloignées plus proches et lumineuses. L’histoire de son invention est un peu approximative. La plupart des gens attribuent la réalisation du prototype à Galileo Galilei (Galilée), en 1609, mais les connaissances requises pour en fabriquer avaient déjà été acquises avant cela. Toutefois, personne n’a encore trouvé de preuve de l’existence des télescopes avant 1608, année à laquelle des artisans opticiens des Pays-Bas en ont construit. Un de ces artisans, Hans Lippershey, a tant fait parler de sa création que des échos en sont parvenus à Galilée un an plus tard. Celui-ci a alors conçu une version considérablement améliorée de l’instrument du Néerlandais. Ses efforts d’autopromotion, de même que ses observations sur les plus grosses lunes de Jupiter, ont fait la renommée de Galilée en tant que pionnier de l’astronomie.
@@ -515,5 +502,4 @@ La simulation Thesan a été implémentée sur SuperMUC-NG - l'un des plus grand
             </div>
         </div>
     </div>
->>>>>>> Stashed changes
 </x-app-layout>
