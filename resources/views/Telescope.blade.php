@@ -377,7 +377,7 @@ La simulation Thesan a été implémentée sur SuperMUC-NG - l'un des plus grand
                     ** si une légère différence existe, ce n’est pas grave si l’écart est stable, on peut ajouter une 2ème correction (souvent il faut une correction monotone pour corriger la réponse des filtres analogiques et/ou FE numérique). C’est une pratique courante en optique en effectuant Dark, Flat et Offset.
                     Autre remarque, 2 minutes pour un lobe à 1° n’est pas négligeable. 2 minutes => 15°/30 soit 0.5° (un ½ lobe). C’est aussi la limite pour vérifier le pointage. C’est bien adapté à une image 24h mais pas à des observations classiques (il faudra au moins 2 modes).
                     <br> <br>
-
+                    <img src="https://static.lexpress.fr/medias_10140/w_1034,h_450,c_crop,x_0,y_79/w_1000,h_563,c_fill,g_north/v1421859915/sursaut-radio-rapide-fast-radio-burst_5191991.jpg" alt="">
                     Il faudrait également passer les FFT à 2048 points au lieu de 4096, ainsi on doublerait la bande de mesure tout en gardant une résolution d’enviton 0.25 km/s. De plus ça compense la réduction du temps d’intégration (Produit B*T constant par exemple).
                     <br> <br>
 
