@@ -27,7 +27,7 @@ class Controller extends BaseController
     }    public function recupcontact(Request $resquet)
     {
 //        dd("test");
-    Session::flash('envoyer', "Le message a bien etais envoyer ");
+    Session::flash('envoyer', "Le message a bien été envoyé ");
         return view("Contact");
     }
 
