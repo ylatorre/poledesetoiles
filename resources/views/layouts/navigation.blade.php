@@ -36,6 +36,11 @@
                     <x-nav-link :href="route('Contact')" :active="request()->routeIs('Contact')">
                         {{ __('Contact') }}
                     </x-nav-link>
+{{--                    <x-nav-link>--}}
+                        <a href="https://www.facebook.com/groups/stellapolus" class="pb-3">
+                            <img src="https://img.icons8.com/fluency/344/facebook.png"  class="pb-3 pl-3" style="width: 75px; height: 75px" alt="">
+                        </a>
+{{--                    </x-nav-link>--}}
                 </div>
             </div>
 
