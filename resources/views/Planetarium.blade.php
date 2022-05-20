@@ -37,7 +37,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    Ici la visite virtuel de notre planetarium creer en 1995<br><br>
+                    Ici la visite virtuelle de notre planetarium créé en 1995<br><br>
 
                     Présentation<br><br>
                     Observer le ciel la nuit impose des contraintes que l’on peut dépasser aujourd’hui par l’utilisation d’un planétarium
