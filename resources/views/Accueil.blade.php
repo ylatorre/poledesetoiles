@@ -218,9 +218,9 @@
                         afin de choisir une date qui vous permetra de voir des henomene astronaumique,
                         un souvenir fantastique pour les grands et les petits.</p>
                     <div class="mt-6">
-                        <a href="#"
+                        <a href="{{route('Calendrier')}}"
                             class="inline-block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400">
-                            Read More</a>
+                            En savoir plus</a>
                     </div>
                 </div>
             </div>
