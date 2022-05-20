@@ -12,7 +12,7 @@
 
     <!-- component -->
     <!-- This is an example component -->
-    <div class="max-w-2xl mx-auto bg-white p-16">
+    <div class="max-w-2xl mx-auto bg-white p-16 mt-8">
 
         <form method="post" action="{{route("recupcontact")}}">
             @csrf
@@ -43,7 +43,7 @@
                         number</label>
                     <input type="tel" id="phone"
                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                           placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                           placeholder="06 90 29 06 65"  required>
                 </div>
 
             </div>
@@ -90,7 +90,7 @@
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                     class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                >Click me</button>
+                >Envoyer</button>
             </div>
         </form>
 

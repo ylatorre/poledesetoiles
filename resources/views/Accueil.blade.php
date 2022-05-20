@@ -49,10 +49,10 @@
                 <div class="carousel-caption d-none d-md-block">
                     <div style="text-shadow: 2px 2px 2px black;">
                         <h5>Images de la NASA dans l'espace lointain</h5>
-                         <p>
+                        <p>
                             voyage dans les profondeurs de l'univers, à la découverte des galaxies, des nébuleuses, des
                             étoiles et même des planètes, telles qu'elles sont perçues.
-                         </p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -109,6 +109,37 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg"><br>
+                <div class="p-6 bg-white border-b border-gray-200">
+                    Comme vous le savez peut-être déjà, <br>Lyon peut se vanter d’avoir une station radioastronomie
+                    d’importance internationale ! <br>Légèrement excentré de Lyon, en plein Rhône, se cache un observatoire
+                    qui scrute l’espace grâce aux ondes radio. <br><br>Le Pôle des Étoiles est un site scientifique qui attire
+                    de plus en plus de curieux et qui permet de comprendre les mystères de l’univers…<br><br>Nous avons demandé
+                    à Arnaud Paradis de nous en dire plus sur l’histoire et les activités du Pôle des Étoiles de Lyon.<br><br>
+                    Le 5 Aout 1995, une équipe d’astronomes décide d’implanter à Lyon un observatoire de radioastronomie
+                    afin d’observer les étoiles. Si nous sommes émerveillés par leurs lumières qui illuminent le ciel,
+                    elles émettent également un rayonnement invisible, les ondes radio. <br>Des radiotélescopes sont alors construits pour
+                    observer le soleil, les galaxies et la planète Jupiter.<br><br> Aujourd’hui, nous trouvons 5 instruments
+                    différents, installés sur un grand terrain de 15 hectares. <br><br>Ils sont utilisés par des astronomes du
+                    monde entier pour étudier notre univers. La station de radioastronomie de Lyon est rattachée à
+                    l’observatoire de Paris, au CNRS et à l’université de Lyon 1.<br><br>
+                    L’atmosphère terrestre étant transparente aux ondes radio, un radiotélescope peut observer le jour,
+                    la nuit et même sous la pluie.<br> Par contre, les appareils électriques, informatiques et électroniques
+                    génèrent des interférences radio.<br> Voilà pourquoi la station s’est installée légerement excentré du centre de Lyon
+                    avec une grande zone forêt autour.<br><br> L’avantage pour nous, curieux du ciel, est que loin des lumières
+                    des villes, le ciel est bien sombre, permettant de mieux observer les étoiles et à Lyon, la voie
+                    lactée n’est pas une légende.<br><br>
+                    Pour faire découvrir ce lieu à la fois scientifique et un peu magique, la mairie de Lyon a créé en
+                    1997, un lieu d’accueil et de découverte<br>
+                    pour le grand public : « ciel ouvert à Lyon ». <br>Aujourd’hui, c’est le département du Rhône, qui en
+                    est le propriétaire.
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex flex-row justify-around ">
@@ -182,22 +213,21 @@
     </x-slot>
 
     <style>
-        .carousel-control-next {
-            width: 50%;
-        }
+    .carousel-control-next {
+        width: 50%;
+    }
 
-        .carousel-control-prev {
-            width: 50%;
-        }
+    .carousel-control-prev {
+        width: 50%;
+    }
 
-        .carousel-control-next-icon {
-            padding-left: 70%;
-        }
+    .carousel-control-next-icon {
+        padding-left: 70%;
+    }
 
-        .carousel-control-prev-icon {
-            padding-right: 70%;
-        }
-
+    .carousel-control-prev-icon {
+        padding-right: 70%;
+    }
     </style>
 
 </x-app-layout>
