@@ -65,13 +65,13 @@
             <!-- Single item -->
             <div class="carousel-item relative float-left w-full">
                 <img
-                    src=""
+                    src="https://images-ext-1.discordapp.net/external/Sr5QoSIzm70oGrubYPfMnZ_14a3vev3OrLrNelo2Rpk/https/cdn.futura-sciences.com/buildsv6/images/wide1920/4/b/0/4b0a6f5ba6_50184649_artist-s-impression-of-the-james-webb-space-telescope.jpg?width=1074&height=671"
                     class="block w-full"
                     alt="Woman Reading a Book"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl">Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5 class="text-xl text-white" style="text-shadow: 2px 2px 2px black">Third slide label</h5>
+                    <p class="text-white" style="text-shadow: 2px 2px 2px black">Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
         </div>
