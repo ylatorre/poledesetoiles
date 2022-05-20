@@ -32,7 +32,7 @@
                         {{ __('Contact') }}
                     </x-nav-link>
                     <x-nav-link :href="route('Telescope')" :active="request()->routeIs('Telescope')">
-                        {{ __('Telescope') }}
+                        {{ __('Téléscope') }}
                     </x-nav-link>
                 </div>
             </div>
