@@ -44,8 +44,8 @@
                     alt="Motorbike Smoke"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl ">First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5 class="text-xl ">Télescopes optiques</h5>
+                    <p>Les différents télescopes optiques que nous utilisons sur Terre.</p>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <h5 class="text-xl text-white" style="text-shadow: 2px 2px 2px black">Plus grand radio-Téléscope au monde</h5>
-                    <p class="text-white" style="text-shadow: 2px 2px 2px black">?</p>
+                    <p class="text-white" style="text-shadow: 2px 2px 2px black">Localisation en Chine</p>
                 </div>
             </div>
 
@@ -70,8 +70,8 @@
                     alt="Woman Reading a Book"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl text-white" style="text-shadow: 2px 2px 2px black">Third slide label</h5>
-                    <p class="text-white" style="text-shadow: 2px 2px 2px black">Some representative placeholder content for the third slide.</p>
+                    <h5 class="text-xl text-white" style="text-shadow: 2px 2px 2px black">Télescope spacial Hubble</h5>
+                    <p class="text-white" style="text-shadow: 2px 2px 2px black">Déploiement début Janvier 2022 dans l'espace.</p>
                 </div>
             </div>
         </div>
