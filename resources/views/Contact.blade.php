@@ -13,8 +13,11 @@
     <!-- component -->
     <!-- This is an example component -->
     <div class="max-w-2xl mx-auto bg-white p-16 mt-8">
-
-        <form method="post" action="{{route("recupcontact")}}">
+        @if (Session::has('envoyer'))
+            <div class="flex text-center text-green-500 alert alert-info justify-center ">
+                {{ Session::get('envoyer') }}</div>
+        @endif
+        <form method="POST" action="{{route("recupcontact")}}">
             @csrf
             <div class="grid gap-6 mb-6 lg:grid-cols-2">
                 <div>
@@ -86,7 +89,7 @@
 {{--            </button>--}}
             <div class="flex space-x-2 justify-center">
                 <button
-                    type="button"
+                    type="submit"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                     class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"

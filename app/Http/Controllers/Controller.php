@@ -7,6 +7,8 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Request;
+use Illuminate\Support\Facades\Session;
 
 class Controller extends BaseController
 {
@@ -22,9 +24,10 @@ class Controller extends BaseController
 
         return view("Contact");
 
-    }    public function recupcontact(Resquet $resquet)
+    }    public function recupcontact(Request $resquet)
     {
-
+//        dd("test");
+    Session::flash('envoyer', "Le message a bien etais envoyer ");
         return view("Contact");
     }
 
